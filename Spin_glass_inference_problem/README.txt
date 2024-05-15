@@ -1,4 +1,4 @@
-The aim of this code is to estimate the values of the couplings of a Viana-Bray sping glass from equilibrium configurations of it.
+The aim of this code is to estimate the values of the couplings of a Viana-Bray spin glass from equilibrium configurations of it.
 A VB spin-glass is a spin-glass in which the spins are connected through an Erdös-Renyi graph. In our particular case, each coupling has a value of +1
 with probability p, and of -1 with probability 1-p.
 
