@@ -1,5 +1,5 @@
 This code runs a continuous-time Monte Carlo simulation of the 2D Ising model in a square lattice with periodic boundary conditions.
-The time the system spends in each configuration is now a random variable that is sampled without rejection.
+The time the system spends in each configuration is a random variable that is sampled without rejection.
 (The continuous-time Monte Carlo method is also known as "kinetic Monte Carlo" or "Gillespie" algorithm).
 
 The input variables are specified between lines 47 and 51:
