@@ -255,7 +255,7 @@ void histograma (double *secuencia, double *histo, int N, int K, double *maxdir,
     for(j=0;j<K;j++) histo[j] = 0; ///inicializamos el hsitograma a 0
 
     for(i=0;i<N;i++)
-        for(j=0;j<K;j++) if(((min+j*delta)<=secuencia[i])&&(secuencia[i]<=min+(j+1)*delta)) histo[j]+=1.0; ///contamos cuántos números de la secuencia están en cada casilla
+        for(j=0;j<K;j++) if(((min+j*delta)<=secuencia[i])&&(secuencia[i]<=min+(j+1)*delta)) histo[j]+=1.0; ///contamos cuÃ¡ntos nÃºmeros de la secuencia estÃ¡n en cada casilla
 
     for(i=0;i<K;i++) histo[i] = histo[i]/N; ///normalizamos el histograma
 
@@ -339,7 +339,7 @@ double distancia(double *x, double *y)
     return dist;
 }
 
-double energia_cinetica(double **p) ///energía cinética por partícula, en realidad
+double energia_cinetica(double **p) ///energÃ­a cinÃ©tica por partÃ­cula, en realidad
 {
     int i, j;
     double suma = 0.0;
